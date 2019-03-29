@@ -1,0 +1,26 @@
+{
+  "name": "resume-website-starter",
+  "version": "1.0.0",
+  "description": "A simple, print-friendly resume website starter.",
+  "main": "index.js",
+  "scripts": {
+    "develop": "./node_modules/.bin/gulp",
+    "deploy": "gh-pages -d src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reddyman/Orbit-Theme.git"
+  },
+  "author": "Abhinav Reddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reddyman/Orbit-Theme/issues"
+  },
+  "homepage": "https://github.com/Reddyman/Orbit-Theme#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gh-pages": "^2.0.1",
+    "gulp": "^4.0.0"
+  }
+}
